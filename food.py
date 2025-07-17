@@ -1,11 +1,11 @@
 from turtle import Turtle,Screen
 import random
 screenn=Screen()
-screenn.register_shape("Jour20_21_snake/apple.gif")
+screenn.register_shape("./apple.gif")
 class Food(Turtle):
     def __init__(self):
         super().__init__()
-        self.shape("Jour20_21_snake/apple.gif")
+        self.shape("./apple.gif")
         self.penup()
         self.shapesize(stretch_len=0.5,stretch_wid=0.5)
         self.color("blue")

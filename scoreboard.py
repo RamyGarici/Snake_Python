@@ -8,7 +8,7 @@ class ScoreBoard(Turtle):
         self.penup()
         self.score=0
         self.highscore=0
-        with open("Jour20_21_Snake/highscore.txt") as file:
+        with open("./highscore.txt") as file:
             try:
                 self.highscore=int(file.read())
             except:
